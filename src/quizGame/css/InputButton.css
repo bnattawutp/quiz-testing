@@ -1,0 +1,37 @@
+.answer-btn-radio {
+  display: none;
+  cursor: pointer;
+}
+
+input[type="radio" i] {
+  -webkit-appearance: radio;
+  box-sizing: border-box;
+}
+
+input:disabled,
+textarea:disabled {
+  color: rgb(84, 84, 84);
+  cursor: default;
+}
+
+input[type="radio" i] {
+  background-color: initial;
+  cursor: default;
+  margin: 3px 0.5ex;
+  padding: initial;
+  border: initial;
+}
+
+input {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 11px system-ui;
+}
